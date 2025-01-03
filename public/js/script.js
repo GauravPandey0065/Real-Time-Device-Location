@@ -18,7 +18,7 @@ if (navigator.geolocation) {
 }
 
 // Initialize the map
-const map = L.map("map").setView([0, 0], 16); // Set initial map position
+const map = L.map("map").setView([0, 0],10); // Set initial map position
 
 // Add OpenStreetMap tile layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
